@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.mainGame {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 90vh;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.loserSection {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  width: 35%;
+  height: 35%;
+  clip-path: circle(30% at 50% 50%);
+  background: linear-gradient(to top right, #fd8c82, #fd8184);
+  position: relative;
+}
+
+.circle:hover {
+  transform: scale(1.1);
+}
+
+.circle:active {
+  background: linear-gradient(to top right, #ee0979, #ff6a00);
+}
+
+.mainBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.addPlayersSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 90vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+  border: 1px solid #ffc3a0;
+  width: 400px;
+  height: 500px;
+  border-radius: 5%;
+}
+
+form > button {
+  width: 60%;
+  height: 20%;
+  background: linear-gradient(to top right, #FFAFBD, #ffc3a0);
+  border: 0;
+  border-radius: 5%;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(to top right, #FFA5D6, #FF8B93);
+}
+
+input {
+  height: 10%;
+  outline: none;
+  text-align: center;
+}
+
+.continueGame, .winningSection {
+  height: 50vh;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.chooseBtns {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.restartGameBtn, .chooseBtns > button {
+  font-size: 1.5em;
+  padding: 1em;
+  background: linear-gradient(to top right, #FFAFBD, #ffc3a0);
+  border: 0;
+  margin: 1em;
+}
+
