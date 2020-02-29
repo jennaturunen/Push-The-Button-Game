@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8"/>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<h1>PRESS THE BUTTON-GAME</h1>
+
+<section class="mainGame">
+  <div class="scores"></div>
+  <p class="whoIsNext"></p>
+  <h3 class="countTillWin"></h3>
+  <div class="circle">
+    <span class="mainBtn">PRESS ME</span>
+  </div>
+
+  <div class="loserSection">
+    <h3>LOSERS</h3>
+    <div class="listOfLosers"></div>
+  </div>
+</section>
+
+<section class="continueGame">
+  <p class="continueText"></p>
+  <div class="chooseBtns">
+    <button class="continueBtn">CONTINUE GAME</button>
+    <button class="endBtn">END GAME</button>
+  </div>
+</section>
+
+<section class="winningSection">
+  <p class="congrats"></p>
+  <button class="restartGameBtn">RESTART THE GAME</button>
+</section>
+
+<section class="addPlayersSection">
+  <h2>ADD AT LEAST TWO PLAYERS</h2>
+  <form>
+    <input class="players" type="text" placeholder="First player">
+    <input class="players" type="text" placeholder="Second player">
+    <input class="players" type="text" placeholder="Third player">
+    <input class="players" type="text" placeholder="Fourth player">
+    <button class="startGameBtn">START THE GAME</button>
+  </form>
+</section>
+
+</body>
+</html>
