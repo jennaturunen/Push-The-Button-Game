@@ -1,4 +1,16 @@
-# WTMP Starter
+# Push The Button Game
+
+
+Simple multiplayer game played by pressing a button.
+
+Used techniques:
+- JavaScript (ES6->)
+- CSS
+- HTML
+- WebPack
+
+<strong>TEST THE GAME HERE:</strong> <a href="https://jennaturunen.github.io/Push-The-Button-Game/dist/?">Good luck...</a>
+
 
 Simple boilerplate for [Webpack](https://webpack.js.org/guides/getting-started) powered web development exercises.
 
