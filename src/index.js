@@ -35,7 +35,7 @@ startGameBtn.addEventListener('click', () => {
     if (onePlayer.value !== '') {
       const player = {};
       player.name = onePlayer.value;
-      player.score = 10;
+      player.score = 20;
       allPlayers.push(player);
     }
   }
